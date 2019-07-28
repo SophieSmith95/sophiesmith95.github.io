@@ -22,7 +22,7 @@ The best and worst case complexity of this algorithm is \\(O(n^2)\\).
 
 ## Bubble Sort
 
-Bubble sort compares each adjacent elements during each iteration and will swap the elements if out of order. Iterations over the array will continue until there are no more adjacent elements that need swapping. To make this algorithm more efficient it can be designed so that each iteration iterates over n-1 elements. This is because after the first iteration the largest number should be in the last position of the array, after the second iteration the last 2 elements should be sorted and therefore no comparison needed etc.
+Bubble sort compares each adjacent elements during each iteration and will swap the elements if out of order. Iterations over the array will continue until there are no more adjacent elements that need swapping. To make this algorithm more efficient it can be designed so that each iteration iterates over \\(n-1\\) elements. This is because after the first iteration the largest number should be in the last position of the array, after the second iteration the last 2 elements should be sorted and therefore no comparison needed etc.
 
 This algorithm has a worst case complexity of \\(O(n^2)\\) which occurs when the array is reverse sorted. The best case complexity is \\(O(n^2)\\) which is when the array is sorted.
 
