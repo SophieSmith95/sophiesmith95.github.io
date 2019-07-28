@@ -79,7 +79,7 @@ for (int i=0; i<n; i\*=2):
 
 This also applies to something that is constantly being halved
 
-### \\(O(n\log{}n)\\
+### \\(O(n\log{}n)\\)
 
 This is linerithmic time and combines \\(O(n)\\) and \\(O(logn)\\) e.g.
 
