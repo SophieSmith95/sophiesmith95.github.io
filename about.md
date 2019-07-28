@@ -4,15 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+![https://en.gravatar.com/userimage/164550350/6659d72b25cf14d1be0e51349d4f3e84.jpg?size=200]()
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Hello, my name is Sophie Smith and I am 23 years old. I am a 2018 graduate from the University of Bath with a Bachelors of Science in Computer Science. University introduced me to programming, where I was able to begin to learn the basics of Java and Python. I am continuing my Python adventures outside of university.
