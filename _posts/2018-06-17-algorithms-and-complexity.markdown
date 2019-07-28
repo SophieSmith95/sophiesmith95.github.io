@@ -68,7 +68,7 @@ for (int i=0; i<n; i++):
 		Do Something
 ```
 
-### \\(O(logn)\\)
+### \\(O(\log{}n)\\)
 
 This is logarithmic time and tends to occur when the counting variable in a loop doubles e.g.
 
@@ -81,7 +81,7 @@ This also applies to something that is constantly being halved
 
 ### \\(O(n\log{}n)\\)
 
-This is linerithmic time and combines \\(O(n)\\) and \\(O(logn)\\) e.g.
+This is linerithmic time and combines \\(O(n)\\) and \\(O(\log{}n)\\) e.g.
 
 ```
 for (int i=0; i<n; i++): #<-- O(n)
