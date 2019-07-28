@@ -39,8 +39,25 @@ Quick sort is a divide and conquer algorithm. Pick an element from the input dat
 
 Worst case complexity is \\(O(n^2)\\). This occurs when the pivot is either the smallest or largest element in the array. The best case complexity is \\(O(n\log{}n)\\) and this occurs when the pivot divides the array into almost equal sized arrays.
 
-## Binary Sort
+## Binary Search
 
-Binary sort is used on sorted arrays to find out if a given element exists in the array. Binary sort does this by taking the middle element of the array and comparing to see if this element it greater than or smaller than the element we are trying to find in the array. If the middle element is greater than then we can eliminate
+Binary search is used on sorted arrays to find out if a given element exists in the array. Binary sort does this by taking the middle element of the array and comparing to see if this element it greater than or smaller than the element we are trying to find in the array. If the middle element is greater than then we can eliminate the left hand side of the array and the right hand side if smaller than.
+
+Worst case complexity is \\(O(n)\\) and the best case is \\(O(log_{2}n)\\).
+
+## Computing Complexity
+
+The following is a naive way of computing the complexity of an alogrith which can be used to give a best guess of an alogrithms complexity.
+
+### \\(O(n)\\)
+
+This is liner time complexity and ends to occur when there is a loop which is executed N times e.g.
+
+```
+for (int i=0; i<n i++):
+	Do something
+```
+
+
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
