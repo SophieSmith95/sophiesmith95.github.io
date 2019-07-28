@@ -12,7 +12,7 @@ Insertion sort uses 2 different arrays, an unsorted array and a sorted array. Ea
 
 The first iteration takes the first element of the input data (unsorted array) and places it into a new array (sorted array). The second iteration will take the next element from the unsorted array and will put it into the correct location in the sorted array. The correct location is determined by comparing the element from the unsorted array against the last element in the sorted array. If the 2 elements are out of order they will be swapped around the next pair will be compared and swapped if out of place. This will continue until the element from the unsorted array is in the correct location in the sorted array. The iterations will continue until the unsorted list is empty.
 
-Worse case complexity of this algorithm is $O(n^2)$. This occurs when the array is reverse sorted. The best case complexity is O(n) and this occurs when the list is already sorted.
+Worse case complexity of this algorithm is \(O(n^2)\). This occurs when the array is reverse sorted. The best case complexity is O(n) and this occurs when the list is already sorted.
 
 ## Selection Sort
 
