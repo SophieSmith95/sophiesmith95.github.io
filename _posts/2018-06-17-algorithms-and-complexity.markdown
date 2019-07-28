@@ -65,7 +65,7 @@ This is quadratic time and tends to occur when there are nested loops where the 
 ```
 for (int i=0; i<n; i++):
 	for (int j=0; j<n; j++):
-		Do Something
+		Do Something.
 ```
 
 ### \\(O(\log{}n)\\)
@@ -74,7 +74,7 @@ This is logarithmic time and tends to occur when the counting variable in a loop
 
 ```
 for (int i=0; i<n; i\*=2):
-	Do Something
+	Do Something.
 ```
 
 This also applies to something that is constantly being halved
@@ -86,6 +86,6 @@ This is linerithmic time and combines \\(O(n)\\) and \\(O(\log{}n)\\) e.g.
 ```
 for (int i=0; i<n; i++): #<-- O(n)
 	for (int j=0; j<n; j++): #<-- O(logn)
-		Do Something
+		Do Something.
 ```
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
