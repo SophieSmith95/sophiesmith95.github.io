@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Algorithms and Complexity"
-date:   2019-07-28 15:45:57 +0100
+date:   2018-06-17 15:45:57 +0100
 ---
 
-Using plural sight I decided to learn about various algorithms and their complexities. I learnt there are a large array of different types of algorithms and each one, depending on its complexity, fits different problems better than others. As the time take to run an algorithm is significantly important when writing code I have documented below the different types of algorithms that are available and their complexities.
+After learning about algorithms and complexity in 3rd year of univesity here is my basic overview of a numeber of algorithms and their complexities.
 
 ## Insertion Sort
 
@@ -84,8 +84,8 @@ This also applies to something that is constantly being halved
 This is linerithmic time and combines \\(O(n)\\) and \\(O(logn)\\) e.g.
 
 ```
-for (int i=0; i<n; i++): #<-- \\(O(n)\\)
-	for (int j=0; j<n; j++): #<-- \\(O(logn)\\)
+for (int i=0; i<n; i++): #<-- O(n)
+	for (int j=0; j<n; j++): #<-- O(logn)
 		Do Something
 ```
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
