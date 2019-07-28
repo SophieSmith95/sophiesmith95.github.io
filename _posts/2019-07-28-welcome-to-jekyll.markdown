@@ -51,13 +51,41 @@ The following is a naive way of computing the complexity of an alogrith which ca
 
 ### \\(O(n)\\)
 
-This is liner time complexity and ends to occur when there is a loop which is executed N times e.g.
+This is liner time and tends to occur when there is a loop which is executed N times e.g.
 
 ```
-for (int i=0; i<n i++):
+for (int i=0; i<n; i++):
 	Do something
 ```
 
+### \\(O(n^2)\\)
 
+This is quadratic time and tends to occur when there are nested loops where the outer loop executes N times and the inner loop executes N times, so \\(N\*N) = O(n^2)\\) e.g.
 
+```
+for (int i=0; i<n; i++):
+	for (int j=0; j<n; j++):
+		Do Something
+```
+
+### \\(O(logn)\\)
+
+This is logarithmic time and tends to occur when the counting variable in a loop doubles e.g.
+
+```
+for (int i=0; i<n; i\*=2):
+	Do Something
+```
+
+This also applies to something that is constantly being halved
+
+### \\(O(n\log{}n)\\
+
+This is linerithmic time and combines \\(O(n)\\) and \\(O(logn)\\) e.g.
+
+```
+for (int i=0; i<n; i++): #<-- \\(O(n)\\)
+	for (int j=0; j<n; j++): #<-- \\(O(logn)\\)
+		Do Something
+```
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
