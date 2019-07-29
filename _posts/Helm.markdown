@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Helm"
+date:   2019-06-21 21:02:04 +0100
+---
+
+Following on from my previous post 'Docker and Kubernetes' here is a short overview of Helm.
+
+## What is Helm?
+
+Kubernetes has many resources including this like services and deployments all of which require detailed YAML files. Helm is a package manager for Kubernetes which aims to make this easier. Helm is composed of 2 halves. The first being Helm. Helm can do a number of things including installing software, software upgrades and configure deployments etc. The second half is called Tiller. Tiller runs in Kubernetes and deals with the Helm packages, which are called charts, and Helm commands.
+
+## Key things to know
+
+The 3 main concepts of Helm are:
+
+### Charts
+These are Helm packages which is a set of pre-configured Kubernetes resources. Once a chart has been built it can be it can be reused over and over. These charts can also be used across all environment which reduces the complexity of having to write a chat for each environment.
+
+### Release
+A specific instance of a chart which has been deployed to the cluster using Helm
+
+### Repository
+A group of published charts which can be made available to others
