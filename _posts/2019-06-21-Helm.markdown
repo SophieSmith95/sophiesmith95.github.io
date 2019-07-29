@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Helm"
+title:  "A Short Introduction to Helm"
 date:   2019-06-21 21:02:04 +0100
 ---
 
