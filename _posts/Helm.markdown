@@ -4,7 +4,7 @@ title:  "Helm"
 date:   2019-06-21 21:02:04 +0100
 ---
 
-Following on from my previous post 'Docker and Kubernetes' here is a short overview of Helm.
+Following on from my previous post "A Short Introduction to Docker & Kubernetes" here is a short overview of Helm.
 
 ## What is Helm?
 
